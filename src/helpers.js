@@ -54,6 +54,11 @@ function calculateDate(date, d = 0, m = 0, y = 0, mode = 'add') {
   }
 }
 
+function getRandom(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
 exports.getDay = getDay;
 exports.getMonth = getMonth;
 exports.calculateDate = calculateDate;
+exports.getRandom = getRandom;

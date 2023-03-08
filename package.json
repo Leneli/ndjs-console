@@ -4,7 +4,8 @@
   "description": "nodejs: command line arguments and console",
   "main": "index.js",
   "bin": {
-    "date-log": "./src/date.js"
+    "date-log": "./src/date.js",
+    "guess-game": "./src/guess.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
